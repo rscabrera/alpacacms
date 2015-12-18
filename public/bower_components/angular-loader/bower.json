@@ -1,9 +1,8 @@
 {
   "name": "angular-loader",
-  "version": "1.2.29",
+  "version": "1.2.21",
   "main": "./angular-loader.js",
-  "ignore": [],
   "dependencies": {
-    "angular": "1.2.29"
+    "angular": "1.2.21"
   }
 }

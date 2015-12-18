@@ -37,4 +37,9 @@ config(['$routeProvider', '$locationProvider',
             redirectTo: '/home'
         });
         $locationProvider.html5Mode(true);
-}]);
+    }
+])
+
+.config(function($httpProvider) {
+    $httpProvider.interceptors.push('myHttpInterceptor');
+});
